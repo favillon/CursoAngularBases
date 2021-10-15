@@ -14,13 +14,13 @@ export class MainPageComponent{
     poder : 1000
   }
 
-  get personajes():Personaje[]{
+  /*get personajes():Personaje[]{
     return this.dbzServices.personajes
-  }
+  }*/
   
-  constructor(private dbzServices:DbzServices ){}
+  constructor(){}
 
-  agregarNuevoPerosnaje(arg:Personaje){
+  /*agregarNuevoPerosnaje(arg:Personaje){
     this.personajes.push(arg);
-  }
+  }*/
 }
